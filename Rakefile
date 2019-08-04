@@ -1,3 +1,7 @@
+task :environment do
+  require_relative './config/environment'
+end
+
 namespase :greeting do
 desc 'outputs hello to the terminal'
   task :hello do
